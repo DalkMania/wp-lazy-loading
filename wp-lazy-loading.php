@@ -33,7 +33,7 @@ if (!class_exists('WPSimpleLazyLoading')) {
         {
             // If you Need Polyfill uncomment the line below
             //wp_enqueue_script('IntersectionObserver', 'https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver', [], null, true);
-            wp_enqueue_script('lozad', 'https://cdn.jsdelivr.net/npm/lozad@1.7.0/dist/lozad.min.js', [], null, true);
+            wp_enqueue_script('lozad', 'https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js', [], null, true);
             wp_add_inline_script('lozad', '
                 lozad(".lazy-load", { 
                     rootMargin: "300px 0px", 
